@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.RepeatString", "7.RepeatS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.MathPower", "8.MathPower\8.MathPower.csproj", "{CEDEE793-D4F2-416C-94FF-A912EAB3E915}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.GreaterOfTwoValues", "9.GreaterOfTwoValues\9.GreaterOfTwoValues.csproj", "{946F5E5D-D3F4-4CC1-900D-838B67D29CEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{CEDEE793-D4F2-416C-94FF-A912EAB3E915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEDEE793-D4F2-416C-94FF-A912EAB3E915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEDEE793-D4F2-416C-94FF-A912EAB3E915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946F5E5D-D3F4-4CC1-900D-838B67D29CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946F5E5D-D3F4-4CC1-900D-838B67D29CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946F5E5D-D3F4-4CC1-900D-838B67D29CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946F5E5D-D3F4-4CC1-900D-838B67D29CEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
