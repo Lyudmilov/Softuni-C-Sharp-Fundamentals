@@ -11,6 +11,38 @@ namespace _10.MultiplyEvensByOdds
             int n = Math.Abs(int.Parse(Console.ReadLine()));
             int multiplySumsEvenOdd = FindEvenSum(n) * FindOddSum(n);
             Console.WriteLine(multiplySumsEvenOdd);
+
+            //Още един вариант на решение без методи
+            /*
+               string input = Console.ReadLine();
+               int n = Math.Abs(int.Parse(input));
+               string nStr = n.ToString();
+               
+               int[] num = new int[nStr.Length];
+               
+               for (int i = 0; i < nStr.Length; i++)
+               {
+               char currentChar = nStr[i];
+               num[i] = int.Parse(currentChar.ToString());
+               }
+               
+               int sumEven = 0;
+               int sumOdd = 0;
+               
+               for (int i = 0; i < num.Length; i++)
+               {
+               if (num[i] % 2 == 0)
+               {
+               sumEven += num[i];
+               }
+               else
+               {
+               sumOdd += num[i];
+               }
+               }
+               
+               Console.WriteLine(sumEven * sumOdd);
+             */
         }
 
         static int FindEvenSum(int num)
