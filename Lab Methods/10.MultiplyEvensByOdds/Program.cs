@@ -11,9 +11,6 @@ namespace _10.MultiplyEvensByOdds
             int n = Math.Abs(int.Parse(Console.ReadLine()));
             int multiplySumsEvenOdd = FindEvenSum(n) * FindOddSum(n);
             Console.WriteLine(multiplySumsEvenOdd);
-            Console.WriteLine(FindEvenSum(n));
-            Console.WriteLine(FindOddSum(n));
-
         }
 
         static int FindEvenSum(int num)
@@ -43,9 +40,9 @@ namespace _10.MultiplyEvensByOdds
             {
                 int next = num % 10;
 
-                /*if (nextN % 2 == 0)
+                /*if (next % 2 == 0)
                 {
-                    sumOdd += nextN;
+                    sumOdd += next;
                 }*/
                 sumOdd += next % 2 != 0 ? next : 0;
 
