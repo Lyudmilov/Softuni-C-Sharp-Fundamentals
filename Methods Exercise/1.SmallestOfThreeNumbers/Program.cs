@@ -7,23 +7,6 @@ namespace _1.SmallestOfThreeNumbers
     {
         static void Main(string[] args)
         {
-            /* List<int> num = new List<int>();
-
-             while (true)
-             {
-
-                 if (int.TryParse(Console.ReadLine(), out int nums))
-                 {
-                     num.Add(nums);
-                 }
-                 else
-                 {
-                     break;
-                 }
-             }
-
-             int min = num.Min();
-             Console.WriteLine(min);*/
             List<int> num = PrintSmallestInt();
             Console.WriteLine(num.Min());
         }
@@ -45,9 +28,7 @@ namespace _1.SmallestOfThreeNumbers
                 }
             }
 
-            //int min = num.Min();
             return num;
-
         }
     }
 }
