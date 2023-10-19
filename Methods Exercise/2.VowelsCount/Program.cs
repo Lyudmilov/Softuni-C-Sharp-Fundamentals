@@ -7,14 +7,16 @@ namespace _2.VowelsCount
         static void Main(string[] args)
         {
             string word = Console.ReadLine();
-            var sum = PrintVowelsCount(word);
+
+            int sum = PrintVowelsCount(word);
+
             Console.WriteLine(sum);
         }
 
         private static int PrintVowelsCount(string word)
         {
             int sum = 0;
-            //PrintVowelsCount
+            
 
             for (int i = 0; i < word.Length; i++)
             {
@@ -30,13 +32,10 @@ namespace _2.VowelsCount
                     case 'O':
                     case 'I':
                     case 'U':
-
                         sum++;
-
                         break;
                 }
             }
-
             return sum;
         }
     }
