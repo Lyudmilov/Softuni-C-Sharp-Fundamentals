@@ -13,13 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.PasswordValidator", "4.Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.AddAndSubtract", "5.AddAndSubtract\5.AddAndSubtract.csproj", "{21FBF81C-D035-4105-9474-B69171710AE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.MiddleCharacters", "6.MiddleCharacters\6.MiddleCharacters.csproj", "{04A8DDD4-4819-4E0B-ACAF-1DE53B37B98D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.MiddleCharacters", "6.MiddleCharacters\6.MiddleCharacters.csproj", "{04A8DDD4-4819-4E0B-ACAF-1DE53B37B98D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.NxNMatrix", "7.NxNMatrix\7.NxNMatrix.csproj", "{29228324-5214-491E-8D17-FB3F5C0ADC39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.NxNMatrix", "7.NxNMatrix\7.NxNMatrix.csproj", "{29228324-5214-491E-8D17-FB3F5C0ADC39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.FactorialDivision", "8.FactorialDivision\8.FactorialDivision.csproj", "{9857C25E-2018-4FE4-BAA7-04E77A9BE0E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.FactorialDivision", "8.FactorialDivision\8.FactorialDivision.csproj", "{9857C25E-2018-4FE4-BAA7-04E77A9BE0E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.PalindromeIntegers", "9.PalindromeIntegers\9.PalindromeIntegers.csproj", "{11826F88-7846-4077-9EE7-57748084ECD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.PalindromeIntegers", "9.PalindromeIntegers\9.PalindromeIntegers.csproj", "{11826F88-7846-4077-9EE7-57748084ECD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.TopNumber", "10.TopNumber\10.TopNumber.csproj", "{0AC48256-45BD-4D09-8C58-6435721D83A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{ADD54352-572B-418A-AAE2-B2578D9662C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{469D9A64-B073-4E38-A707-30C0D73F3942}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{11826F88-7846-4077-9EE7-57748084ECD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11826F88-7846-4077-9EE7-57748084ECD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11826F88-7846-4077-9EE7-57748084ECD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC48256-45BD-4D09-8C58-6435721D83A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC48256-45BD-4D09-8C58-6435721D83A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC48256-45BD-4D09-8C58-6435721D83A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC48256-45BD-4D09-8C58-6435721D83A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD54352-572B-418A-AAE2-B2578D9662C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD54352-572B-418A-AAE2-B2578D9662C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD54352-572B-418A-AAE2-B2578D9662C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD54352-572B-418A-AAE2-B2578D9662C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{469D9A64-B073-4E38-A707-30C0D73F3942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469D9A64-B073-4E38-A707-30C0D73F3942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469D9A64-B073-4E38-A707-30C0D73F3942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469D9A64-B073-4E38-A707-30C0D73F3942}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
